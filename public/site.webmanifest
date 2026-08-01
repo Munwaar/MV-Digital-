@@ -1,0 +1,12 @@
+{
+  "name": "MV Digital Studio",
+  "short_name": "MV Studio",
+  "description": "Building Modern Digital Experiences for Growing Businesses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0908",
+  "theme_color": "#0A0908",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
