@@ -2,7 +2,7 @@ export const STUDIO = {
   name: 'MV Digital Studio',
   mark: 'M',
   tagline: 'Building Modern Digital Experiences for Growing Businesses.',
-  email: 'hello@mvdigitalstudio.com',
+  email: 'mvdigitalstudio007@gmail.com',
   phonePrimary: '+91 74186 04048',
   phoneSecondary: '+91 99629 89799',
   location: 'Remote · Worldwide',

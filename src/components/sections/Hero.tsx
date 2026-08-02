@@ -11,8 +11,8 @@ interface HeroProps {
 
 export function Hero({ ready }: HeroProps) {
   return (
-    <section id="hero" className="relative flex min-h-[100svh] w-full flex-col justify-end px-6 pb-16 pt-32 md:px-10 md:pb-24">
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-16">
+    <section id="hero" className="relative flex min-h-[100svh] w-full flex-col justify-end overflow-hidden px-6 pb-16 pt-32 md:px-10 md:pb-24">
+      <div className="relative mx-auto flex w-full max-w-7xl flex-col gap-16">
         <div>
           <motion.span
             className="eyebrow mb-6 inline-block"

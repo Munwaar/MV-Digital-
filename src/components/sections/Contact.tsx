@@ -13,7 +13,7 @@ interface FormState {
   message: string;
 }
 
-const BUDGET_OPTIONS = ['Under $10k', '$10k – $30k', '$30k – $75k', '$75k+'];
+const BUDGET_OPTIONS = ['₹4,999 — Starter', '₹12,999 — Professional', '₹19,999 — Premium', '₹29,999 — Enterprise'];
 
 export function Contact() {
   const [form, setForm] = useState<FormState>({ name: '', email: '', budget: BUDGET_OPTIONS[0], message: '' });
